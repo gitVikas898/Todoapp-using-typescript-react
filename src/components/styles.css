@@ -71,6 +71,13 @@
     cursor: pointer;
   }
 
+  @media (max-width: 1200px) {
+    .todos_single {
+      width: 40%;
+    }
+  }
+  
+
 @media (max-width: 700px) {
   .input {
     width: 95%;
@@ -83,8 +90,3 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .todos_single {
-    width: 40%;
-  }
-}
