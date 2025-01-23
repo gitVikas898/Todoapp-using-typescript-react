@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Input from './components/Input'
 import { Todo } from './model'
+import TodoList from './components/TodoList'
 
 //Types in Typescript 
 
@@ -29,7 +30,7 @@ const App : React.FC = () =>{
     <div className='App'>
           <h1 className='heading'>Taskify</h1>
           <Input todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
-          <TodoList/>
+          <TodoList myTodos={myTodos} setMyTodos={setMyTodos}/>
     </div>
   )
 }
