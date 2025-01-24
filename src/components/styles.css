@@ -44,6 +44,7 @@
   justify-content: space-evenly;
   width: 90%;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .todos_single {
